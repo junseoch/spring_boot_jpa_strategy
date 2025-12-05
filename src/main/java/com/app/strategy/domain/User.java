@@ -21,7 +21,7 @@ import java.util.List;
         allocationSize = 1
 )
 @ToString(exclude = {"boardList"})
-@EqualsAndHashCode(onlyExplicitlyIncluded = true)
+@EqualsAndHashCode(onlyExplicitlyIncluded = true, callSuper = false)
 public class User extends Period {
 
     @Id

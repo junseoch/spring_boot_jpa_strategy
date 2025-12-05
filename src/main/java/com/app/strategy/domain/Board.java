@@ -17,7 +17,7 @@ import lombok.*;
         allocationSize = 1
 )
 @ToString(exclude = {"user"})
-@EqualsAndHashCode(onlyExplicitlyIncluded = true)
+@EqualsAndHashCode(onlyExplicitlyIncluded = true, callSuper = false)
 public class Board extends Period {
 
     @Id @EqualsAndHashCode.Include

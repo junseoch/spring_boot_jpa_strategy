@@ -17,5 +17,4 @@ public class Clothes extends Product {
     private Integer clothesSize;
     private String clothesColor;
 
-
 }
